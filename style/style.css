@@ -227,9 +227,6 @@ img {
 }
 
 .about__container {
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -241,6 +238,19 @@ img {
 }
 
 /* End: About Section */
+
+/* Start: Support Section */
+.support {
+  padding: 6rem 1.5rem 3rem;
+}
+
+.support__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* End: Support Section */
 
 /* Start: Media Queries */
 @media (max-width: 992px) {
