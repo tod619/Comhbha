@@ -180,7 +180,7 @@ img {
       rgba(255, 255, 255, 1) 50%,
       rgba(137, 237, 83, 0) 57%
     ),
-    url("../images/Landing.jpg") center center/cover no-repeat;
+    url("../images/Sea.jpg") center center/cover no-repeat;
   padding: 1.5rem 2rem 1.5rem;
 }
 
@@ -254,7 +254,7 @@ img {
 
 /* Start:  Therapy Section */
 .therapy {
-  padding: 4rem 0 2rem;
+  padding: 6rem 0 4rem;
 }
 
 .therapy__container {
@@ -272,12 +272,14 @@ img {
 
 .card__heading {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1;
 }
 
 .card__description {
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 /* End: Therapy Section */
 
