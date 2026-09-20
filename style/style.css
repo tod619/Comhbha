@@ -283,6 +283,33 @@ img {
 }
 /* End: Therapy Section */
 
+/* Start: Contact */
+.contact {
+  padding: 8rem 0 4rem;
+}
+
+.contact__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+/* End: Contact */
+
+.footer {
+  padding: 2rem 0 2rem;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
 /* Start: Media Queries */
 @media (max-width: 992px) {
   .therapy__container {
