@@ -1,19 +1,22 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener("DOMContentLoaded", function () {
   // Navbar mobile
-  const toggleButton = document.querySelector('.navbar__mobile-menu-toggle');
-  const mobileMenu = document.querySelector('.navbar__mobile-menu-items');
+  const toggleButton = document.querySelector(".navbar__mobile-menu-toggle");
+  const mobileMenu = document.querySelector(".navbar__mobile-menu-items");
 
-  toggleButton.addEventListener('click', () => {
-    mobileMenu.classList.toggle('active');
+  toggleButton.addEventListener("click", () => {
+    mobileMenu.classList.toggle("active");
   });
 });
 
-window.addEventListener('scroll', () => {
-  const navbar = document.querySelector('.navbar');
+window.addEventListener("scroll", () => {
+  const navbar = document.querySelector(".navbar");
 
   if (window.scrollY > 0) {
-    navbar.classList.add('navbar--scroll');
+    navbar.classList.add("navbar--scroll");
   } else {
-    navbar.classList.remove('navbar--scroll');
+    navbar.classList.remove("navbar--scroll");
   }
 });
+
+// set year
+date.innerHTML = new Date().getFullYear();
