@@ -252,6 +252,35 @@ img {
 }
 /* End: Support Section */
 
+/* Start:  Therapy Section */
+.therapy {
+  padding: 4rem 0 2rem;
+}
+
+.therapy__container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__heading {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card__description {
+  text-align: center;
+  font-size: 1rem;
+}
+/* End: Therapy Section */
+
 /* Start: Media Queries */
 @media (max-width: 992px) {
 }
