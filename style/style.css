@@ -44,7 +44,6 @@ p {
   line-height: 1.3;
   font-weight: 400;
   max-width: 500px;
-  text-align: justify;
 }
 
 a {
@@ -58,6 +57,10 @@ ul {
 
 img {
   max-width: 500px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 /* Utilities */
@@ -268,6 +271,25 @@ img {
   max-width: 50%;
 }
 
+.about__subheading,
+.support__subheading {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.about__mainheading,
+.support__mainheading {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.about__description-text p,
+.support__description p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
 /* End: About Section */
 
 /* Start: Support Section */
