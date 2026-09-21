@@ -66,6 +66,7 @@ img {
 .container {
   max-width: 1100px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .btn {
@@ -272,7 +273,7 @@ img {
 
 .about__description,
 .support__description {
-  width: 50%;
+  max-width: 50%;
 }
 
 .about__subheading,
