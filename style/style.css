@@ -397,7 +397,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .about .contact__container {
+  .contact__container {
     grid-template-columns: 1fr;
   }
 }
