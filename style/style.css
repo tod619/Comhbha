@@ -274,6 +274,7 @@ img {
 .about__description,
 .support__description {
   max-width: 50%;
+  text-align: center;
 }
 
 .about__subheading,
